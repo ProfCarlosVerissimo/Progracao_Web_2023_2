@@ -1,0 +1,116 @@
+/* Estilos para o wrapper */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 0.3;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.redes-sociais a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+/* Estilos para a seção Pratos do Dia */
+#pratos-do-dia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.prato {
+    /*flex-basis: calc(50% - 20px);*/
+    flex-basis: calc(100% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.prato img {
+    max-width: 100%;
+    width: 150px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+/* Estilos para a seção Promoções */
+#promocoes {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#promocoes h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.promocoes-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.promocoes-lista li {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.promocoes-lista h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.promocoes-lista p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.promocoes-lista .preco {
+    font-size: 18px;
+    color: #e44d26; /* Cor laranja para preços */
+}

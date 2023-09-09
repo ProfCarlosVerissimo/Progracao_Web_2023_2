@@ -1,0 +1,221 @@
+/* Estilos para o wrapper */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos para o cabeçalho */
+/* Estilos para um cabeçalho impactante com navegação bonita */
+
+header {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Texto branco */
+    padding: 20px 0; /* Espaçamento interno superior e inferior */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estilo para o título do cabeçalho */
+header h1 {
+    font-size: 36px; /* Tamanho grande para o título principal */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+/* Estilo para o logo */
+header img {
+    max-width: 250px; /* Define o tamanho máximo para o logo */
+}
+/* Estilo para a barra de navegação */
+nav {
+    background-color: #444; /* Cor de fundo ligeiramente mais clara */
+    padding: 10px 0; /* Espaçamento interno superior e inferior */
+}
+
+/* Estilo para a lista de navegação */
+nav ul {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0;
+}
+
+/* Estilo para os itens de navegação */
+nav li {
+    display: inline-block; /* Itens na mesma linha */
+    margin-right: 20px; /* Espaçamento direita entre os itens */
+}
+
+/* Estilo para os links de navegação */
+nav a {
+    text-decoration: none;
+    color: #fff; /* Texto branco */
+    font-size: 20px;
+    transition: color 0.3s ease; /* Efeito de transição suave para a cor do texto */
+}
+
+/* Efeito no hover para os links de navegação */
+nav a:hover {
+    color: #e44d26; /* Cor de destaque laranja no hover */
+}
+
+
+/* Estilos para o conteúdo principal */
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 0.3;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.redes-sociais a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+/* Estilos para a seção Pratos do Dia */
+#pratos-do-dia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.prato {
+    /*flex-basis: calc(50% - 20px);*/
+    flex-basis: calc(100% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.prato img {
+    max-width: 100%;
+    width: 150px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+/* Estilos para a seção Promoções */
+#promocoes {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#promocoes h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.promocoes-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.promocoes-lista li {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.promocoes-lista h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.promocoes-lista p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.promocoes-lista .preco {
+    font-size: 18px;
+    color: #e44d26; /* Cor laranja para preços */
+}
+/* Estilos para a seção <aside> com impacto visual */
+
+/* Estilos para a seção <aside> com impacto visual */
+
+/* Estilos para a seção <aside> com impacto visual */
+
+aside {
+    background-color: #333; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+    padding: 20px;
+}
+
+.evento-musical {
+    text-align: center;
+}
+
+.evento-musical h2 {
+    font-size: 30px; /* Título grande */
+    margin-bottom: 20px;
+}
+
+.evento-musical .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e44d26; /* Cor de fundo laranja */
+    color: #fff; /* Texto branco */
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Efeito de transição */
+    margin-top: 10px; /* Adiciona espaçamento acima do botão */
+}
+
+.evento-musical .botao:hover {
+    background-color: #ff5f2e; /* Cor de fundo laranja mais clara no hover */
+}
+
+.evento {
+    background-color: #444; /* Fundo escuro para eventos */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #e44d26; /* Borda laranja */
+    border-radius: 5px;
+}
+
+.evento img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 3px solid #e44d26; /* Borda laranja mais larga */
+}
+
+.evento h3 {
+    font-size: 24px; /* Tamanho do título do evento */
+    margin-bottom: 10px;
+}
+
+.evento p {
+    font-size: 18px; /* Texto maior */
+    margin-bottom: 10px;
+}
